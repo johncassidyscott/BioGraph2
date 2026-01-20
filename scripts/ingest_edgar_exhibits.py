@@ -14,10 +14,16 @@ logging.basicConfig(filename='edgar_ingest.log', level=logging.INFO, format='%(a
 
 print("Starting EDGAR exhibits ingestion...")
 
+print("About to call ingest_edgar_exhibits()...")
+
 def ingest_edgar_exhibits():
+    print("Inside ingest_edgar_exhibits() function.")
     try:
+        print("Connecting to database...")
         conn = psycopg2.connect(DB_CONN)
+        print("Database connection established.")
         cur = conn.cursor()
+        print("Running SELECT id, accession, issuer_id FROM filing;")
         cur.execute("SELECT id, accession, issuer_id FROM filing;")
         filings = cur.fetchall()
         print(f"Found {len(filings)} filings to process.")
@@ -69,3 +75,6 @@ def ingest_edgar_exhibits():
     conn.commit()
     cur.close()
     conn.close()
+
+print("Calling ingest_edgar_exhibits() at bottom of file...")
+ingest_edgar_exhibits()
