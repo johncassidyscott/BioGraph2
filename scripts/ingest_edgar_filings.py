@@ -13,15 +13,22 @@ N = 20
 
 logging.basicConfig(filename='edgar_ingest.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
+print("Starting EDGAR filings ingestion...")
+
 def ingest_edgar_filings():
     conn = psycopg2.connect(DB_CONN)
     cur = conn.cursor()
     cur.execute("SELECT issuer_id, primary_cik FROM issuer;")
     issuers = [(row[0], row[1].replace('CIK_', '')) for row in cur.fetchall()]
+    print(f"Found {len(issuers)} issuers to process.")
+    logging.info(f"Found {len(issuers)} issuers to process.")
     for issuer_id, cik in issuers:
         filings_url = EDGAR_API.format(cik=cik)
         logging.info(f"Querying CIK: {cik} at {filings_url}")
-        resp = requests.get(filings_url)
+            headers = {
+                "User-Agent": "BioGraph2/1.0 (john.cassidy.scott@gmail.com)"
+            }
+            resp = requests.get(filings_url, headers=headers)
         logging.info(f"Response status for {cik}: {resp.status_code}")
         if resp.status_code != 200:
             logging.info(f"Failed to fetch filings for CIK {cik}")
@@ -48,3 +55,5 @@ def ingest_edgar_filings():
     conn.commit()
     cur.close()
     conn.close()
+
+ingest_edgar_filings()

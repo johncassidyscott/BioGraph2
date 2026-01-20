@@ -1,0 +1,739 @@
+2026-01-20 19:21:46,973 Found 246 issuers to process.
+2026-01-20 19:21:46,973 Querying CIK: 0001813814 at https://data.sec.gov/submissions/CIK0001813814.json
+2026-01-20 19:21:47,185 Response status for 0001813814: 403
+2026-01-20 19:21:47,185 Failed to fetch filings for CIK 0001813814
+2026-01-20 19:21:47,185 Querying CIK: 0001774857 at https://data.sec.gov/submissions/CIK0001774857.json
+2026-01-20 19:21:47,240 Response status for 0001774857: 403
+2026-01-20 19:21:47,240 Failed to fetch filings for CIK 0001774857
+2026-01-20 19:21:47,240 Querying CIK: 0000001800 at https://data.sec.gov/submissions/CIK0000001800.json
+2026-01-20 19:21:47,295 Response status for 0000001800: 403
+2026-01-20 19:21:47,295 Failed to fetch filings for CIK 0000001800
+2026-01-20 19:21:47,295 Querying CIK: 0001551152 at https://data.sec.gov/submissions/CIK0001551152.json
+2026-01-20 19:21:47,349 Response status for 0001551152: 403
+2026-01-20 19:21:47,350 Failed to fetch filings for CIK 0001551152
+2026-01-20 19:21:47,350 Querying CIK: 0001703057 at https://data.sec.gov/submissions/CIK0001703057.json
+2026-01-20 19:21:47,408 Response status for 0001703057: 403
+2026-01-20 19:21:47,408 Failed to fetch filings for CIK 0001703057
+2026-01-20 19:21:47,409 Querying CIK: 0001956827 at https://data.sec.gov/submissions/CIK0001956827.json
+2026-01-20 19:21:47,468 Response status for 0001956827: 403
+2026-01-20 19:21:47,468 Failed to fetch filings for CIK 0001956827
+2026-01-20 19:21:47,469 Querying CIK: 0001651625 at https://data.sec.gov/submissions/CIK0001651625.json
+2026-01-20 19:21:47,536 Response status for 0001651625: 403
+2026-01-20 19:21:47,537 Failed to fetch filings for CIK 0001651625
+2026-01-20 19:21:47,537 Querying CIK: 0001070494 at https://data.sec.gov/submissions/CIK0001070494.json
+2026-01-20 19:21:47,610 Response status for 0001070494: 403
+2026-01-20 19:21:47,610 Failed to fetch filings for CIK 0001070494
+2026-01-20 19:21:47,611 Querying CIK: 0001557746 at https://data.sec.gov/submissions/CIK0001557746.json
+2026-01-20 19:21:47,668 Response status for 0001557746: 403
+2026-01-20 19:21:47,669 Failed to fetch filings for CIK 0001557746
+2026-01-20 19:21:47,669 Querying CIK: 0001771910 at https://data.sec.gov/submissions/CIK0001771910.json
+2026-01-20 19:21:47,727 Response status for 0001771910: 403
+2026-01-20 19:21:47,728 Failed to fetch filings for CIK 0001771910
+2026-01-20 19:21:47,728 Querying CIK: 0001439222 at https://data.sec.gov/submissions/CIK0001439222.json
+2026-01-20 19:21:47,832 Response status for 0001439222: 403
+2026-01-20 19:21:47,833 Failed to fetch filings for CIK 0001439222
+2026-01-20 19:21:47,833 Querying CIK: 0001517022 at https://data.sec.gov/submissions/CIK0001517022.json
+2026-01-20 19:21:47,894 Response status for 0001517022: 403
+2026-01-20 19:21:47,894 Failed to fetch filings for CIK 0001517022
+2026-01-20 19:21:47,894 Querying CIK: 0001520262 at https://data.sec.gov/submissions/CIK0001520262.json
+2026-01-20 19:21:47,950 Response status for 0001520262: 403
+2026-01-20 19:21:47,951 Failed to fetch filings for CIK 0001520262
+2026-01-20 19:21:47,951 Querying CIK: 0001178670 at https://data.sec.gov/submissions/CIK0001178670.json
+2026-01-20 19:21:48,005 Response status for 0001178670: 403
+2026-01-20 19:21:48,005 Failed to fetch filings for CIK 0001178670
+2026-01-20 19:21:48,005 Querying CIK: 0001326190 at https://data.sec.gov/submissions/CIK0001326190.json
+2026-01-20 19:21:48,064 Response status for 0001326190: 403
+2026-01-20 19:21:48,065 Failed to fetch filings for CIK 0001326190
+2026-01-20 19:21:48,065 Querying CIK: 0001999480 at https://data.sec.gov/submissions/CIK0001999480.json
+2026-01-20 19:21:48,126 Response status for 0001999480: 403
+2026-01-20 19:21:48,127 Failed to fetch filings for CIK 0001999480
+2026-01-20 19:21:48,127 Querying CIK: 0001847367 at https://data.sec.gov/submissions/CIK0001847367.json
+2026-01-20 19:21:48,187 Response status for 0001847367: 403
+2026-01-20 19:21:48,187 Failed to fetch filings for CIK 0001847367
+2026-01-20 19:21:48,187 Querying CIK: 0001178879 at https://data.sec.gov/submissions/CIK0001178879.json
+2026-01-20 19:21:48,240 Response status for 0001178879: 403
+2026-01-20 19:21:48,241 Failed to fetch filings for CIK 0001178879
+2026-01-20 19:21:48,241 Querying CIK: 0001658551 at https://data.sec.gov/submissions/CIK0001658551.json
+2026-01-20 19:21:48,296 Response status for 0001658551: 403
+2026-01-20 19:21:48,296 Failed to fetch filings for CIK 0001658551
+2026-01-20 19:21:48,296 Querying CIK: 0001370053 at https://data.sec.gov/submissions/CIK0001370053.json
+2026-01-20 19:21:48,352 Response status for 0001370053: 403
+2026-01-20 19:21:48,353 Failed to fetch filings for CIK 0001370053
+2026-01-20 19:21:48,353 Querying CIK: 0001528115 at https://data.sec.gov/submissions/CIK0001528115.json
+2026-01-20 19:21:48,411 Response status for 0001528115: 403
+2026-01-20 19:21:48,412 Failed to fetch filings for CIK 0001528115
+2026-01-20 19:21:48,412 Querying CIK: 0001492422 at https://data.sec.gov/submissions/CIK0001492422.json
+2026-01-20 19:21:48,469 Response status for 0001492422: 403
+2026-01-20 19:21:48,469 Failed to fetch filings for CIK 0001492422
+2026-01-20 19:21:48,469 Querying CIK: 0001447028 at https://data.sec.gov/submissions/CIK0001447028.json
+2026-01-20 19:21:48,524 Response status for 0001447028: 403
+2026-01-20 19:21:48,524 Failed to fetch filings for CIK 0001447028
+2026-01-20 19:21:48,524 Querying CIK: 0001768224 at https://data.sec.gov/submissions/CIK0001768224.json
+2026-01-20 19:21:48,582 Response status for 0001768224: 403
+2026-01-20 19:21:48,583 Failed to fetch filings for CIK 0001768224
+2026-01-20 19:21:48,583 Querying CIK: 0001724521 at https://data.sec.gov/submissions/CIK0001724521.json
+2026-01-20 19:21:48,639 Response status for 0001724521: 403
+2026-01-20 19:21:48,639 Failed to fetch filings for CIK 0001724521
+2026-01-20 19:21:48,639 Querying CIK: 0001787306 at https://data.sec.gov/submissions/CIK0001787306.json
+2026-01-20 19:21:48,695 Response status for 0001787306: 403
+2026-01-20 19:21:48,695 Failed to fetch filings for CIK 0001787306
+2026-01-20 19:21:48,695 Querying CIK: 0001437402 at https://data.sec.gov/submissions/CIK0001437402.json
+2026-01-20 19:21:48,753 Response status for 0001437402: 403
+2026-01-20 19:21:48,753 Failed to fetch filings for CIK 0001437402
+2026-01-20 19:21:48,753 Querying CIK: 0001868279 at https://data.sec.gov/submissions/CIK0001868279.json
+2026-01-20 19:21:48,822 Response status for 0001868279: 403
+2026-01-20 19:21:48,825 Failed to fetch filings for CIK 0001868279
+2026-01-20 19:21:48,826 Querying CIK: 0000879407 at https://data.sec.gov/submissions/CIK0000879407.json
+2026-01-20 19:21:48,896 Response status for 0000879407: 403
+2026-01-20 19:21:48,897 Failed to fetch filings for CIK 0000879407
+2026-01-20 19:21:48,897 Querying CIK: 0001671858 at https://data.sec.gov/submissions/CIK0001671858.json
+2026-01-20 19:21:48,959 Response status for 0001671858: 403
+2026-01-20 19:21:48,960 Failed to fetch filings for CIK 0001671858
+2026-01-20 19:21:48,960 Querying CIK: 0001655759 at https://data.sec.gov/submissions/CIK0001655759.json
+2026-01-20 19:21:49,021 Response status for 0001655759: 403
+2026-01-20 19:21:49,021 Failed to fetch filings for CIK 0001655759
+2026-01-20 19:21:49,022 Querying CIK: 0001612042 at https://data.sec.gov/submissions/CIK0001612042.json
+2026-01-20 19:21:49,094 Response status for 0001612042: 403
+2026-01-20 19:21:49,094 Failed to fetch filings for CIK 0001612042
+2026-01-20 19:21:49,095 Querying CIK: 0001454789 at https://data.sec.gov/submissions/CIK0001454789.json
+2026-01-20 19:21:49,150 Response status for 0001454789: 403
+2026-01-20 19:21:49,150 Failed to fetch filings for CIK 0001454789
+2026-01-20 19:21:49,150 Querying CIK: 0001840904 at https://data.sec.gov/submissions/CIK0001840904.json
+2026-01-20 19:21:49,208 Response status for 0001840904: 403
+2026-01-20 19:21:49,209 Failed to fetch filings for CIK 0001840904
+2026-01-20 19:21:49,209 Querying CIK: 0001593899 at https://data.sec.gov/submissions/CIK0001593899.json
+2026-01-20 19:21:49,274 Response status for 0001593899: 403
+2026-01-20 19:21:49,275 Failed to fetch filings for CIK 0001593899
+2026-01-20 19:21:49,275 Querying CIK: 0001600620 at https://data.sec.gov/submissions/CIK0001600620.json
+2026-01-20 19:21:49,336 Response status for 0001600620: 403
+2026-01-20 19:21:49,336 Failed to fetch filings for CIK 0001600620
+2026-01-20 19:21:49,336 Querying CIK: 0001599901 at https://data.sec.gov/submissions/CIK0001599901.json
+2026-01-20 19:21:49,397 Response status for 0001599901: 403
+2026-01-20 19:21:49,398 Failed to fetch filings for CIK 0001599901
+2026-01-20 19:21:49,398 Querying CIK: 0001579428 at https://data.sec.gov/submissions/CIK0001579428.json
+2026-01-20 19:21:49,454 Response status for 0001579428: 403
+2026-01-20 19:21:49,454 Failed to fetch filings for CIK 0001579428
+2026-01-20 19:21:49,454 Querying CIK: 0001651308 at https://data.sec.gov/submissions/CIK0001651308.json
+2026-01-20 19:21:49,515 Response status for 0001651308: 403
+2026-01-20 19:21:49,515 Failed to fetch filings for CIK 0001651308
+2026-01-20 19:21:49,515 Querying CIK: 0002023658 at https://data.sec.gov/submissions/CIK0002023658.json
+2026-01-20 19:21:49,572 Response status for 0002023658: 403
+2026-01-20 19:21:49,573 Failed to fetch filings for CIK 0002023658
+2026-01-20 19:21:49,573 Querying CIK: 0001761612 at https://data.sec.gov/submissions/CIK0001761612.json
+2026-01-20 19:21:49,651 Response status for 0001761612: 403
+2026-01-20 19:21:49,652 Failed to fetch filings for CIK 0001761612
+2026-01-20 19:21:49,652 Querying CIK: 0001709941 at https://data.sec.gov/submissions/CIK0001709941.json
+2026-01-20 19:21:49,714 Response status for 0001709941: 403
+2026-01-20 19:21:49,714 Failed to fetch filings for CIK 0001709941
+2026-01-20 19:21:49,714 Querying CIK: 0001935979 at https://data.sec.gov/submissions/CIK0001935979.json
+2026-01-20 19:21:49,772 Response status for 0001935979: 403
+2026-01-20 19:21:49,773 Failed to fetch filings for CIK 0001935979
+2026-01-20 19:21:49,773 Querying CIK: 0001048477 at https://data.sec.gov/submissions/CIK0001048477.json
+2026-01-20 19:21:49,828 Response status for 0001048477: 403
+2026-01-20 19:21:49,828 Failed to fetch filings for CIK 0001048477
+2026-01-20 19:21:49,828 Querying CIK: 0001869105 at https://data.sec.gov/submissions/CIK0001869105.json
+2026-01-20 19:21:49,908 Response status for 0001869105: 403
+2026-01-20 19:21:49,908 Failed to fetch filings for CIK 0001869105
+2026-01-20 19:21:49,908 Querying CIK: 0001743881 at https://data.sec.gov/submissions/CIK0001743881.json
+2026-01-20 19:21:49,968 Response status for 0001743881: 403
+2026-01-20 19:21:49,968 Failed to fetch filings for CIK 0001743881
+2026-01-20 19:21:49,968 Querying CIK: 0000014272 at https://data.sec.gov/submissions/CIK0000014272.json
+2026-01-20 19:21:50,031 Response status for 0000014272: 403
+2026-01-20 19:21:50,031 Failed to fetch filings for CIK 0000014272
+2026-01-20 19:21:50,032 Querying CIK: 0001369568 at https://data.sec.gov/submissions/CIK0001369568.json
+2026-01-20 19:21:50,089 Response status for 0001369568: 403
+2026-01-20 19:21:50,089 Failed to fetch filings for CIK 0001369568
+2026-01-20 19:21:50,090 Querying CIK: 0001847903 at https://data.sec.gov/submissions/CIK0001847903.json
+2026-01-20 19:21:50,152 Response status for 0001847903: 403
+2026-01-20 19:21:50,152 Failed to fetch filings for CIK 0001847903
+2026-01-20 19:21:50,152 Querying CIK: 0001622229 at https://data.sec.gov/submissions/CIK0001622229.json
+2026-01-20 19:21:50,208 Response status for 0001622229: 403
+2026-01-20 19:21:50,208 Failed to fetch filings for CIK 0001622229
+2026-01-20 19:21:50,208 Querying CIK: 0001816590 at https://data.sec.gov/submissions/CIK0001816590.json
+2026-01-20 19:21:50,281 Response status for 0001816590: 403
+2026-01-20 19:21:50,282 Failed to fetch filings for CIK 0001816590
+2026-01-20 19:21:50,282 Querying CIK: 0001855175 at https://data.sec.gov/submissions/CIK0001855175.json
+2026-01-20 19:21:50,359 Response status for 0001855175: 403
+2026-01-20 19:21:50,360 Failed to fetch filings for CIK 0001855175
+2026-01-20 19:21:50,360 Querying CIK: 0001626971 at https://data.sec.gov/submissions/CIK0001626971.json
+2026-01-20 19:21:50,435 Response status for 0001626971: 403
+2026-01-20 19:21:50,436 Failed to fetch filings for CIK 0001626971
+2026-01-20 19:21:50,436 Querying CIK: 0001658247 at https://data.sec.gov/submissions/CIK0001658247.json
+2026-01-20 19:21:50,496 Response status for 0001658247: 403
+2026-01-20 19:21:50,497 Failed to fetch filings for CIK 0001658247
+2026-01-20 19:21:50,497 Querying CIK: 0001061983 at https://data.sec.gov/submissions/CIK0001061983.json
+2026-01-20 19:21:50,554 Response status for 0001061983: 403
+2026-01-20 19:21:50,554 Failed to fetch filings for CIK 0001061983
+2026-01-20 19:21:50,554 Querying CIK: 0001501989 at https://data.sec.gov/submissions/CIK0001501989.json
+2026-01-20 19:21:50,621 Response status for 0001501989: 403
+2026-01-20 19:21:50,621 Failed to fetch filings for CIK 0001501989
+2026-01-20 19:21:50,621 Querying CIK: 0001845337 at https://data.sec.gov/submissions/CIK0001845337.json
+2026-01-20 19:21:50,687 Response status for 0001845337: 403
+2026-01-20 19:21:50,687 Failed to fetch filings for CIK 0001845337
+2026-01-20 19:21:50,687 Querying CIK: 0001807120 at https://data.sec.gov/submissions/CIK0001807120.json
+2026-01-20 19:21:50,757 Response status for 0001807120: 403
+2026-01-20 19:21:50,757 Failed to fetch filings for CIK 0001807120
+2026-01-20 19:21:50,757 Querying CIK: 0001690585 at https://data.sec.gov/submissions/CIK0001690585.json
+2026-01-20 19:21:50,809 Response status for 0001690585: 403
+2026-01-20 19:21:50,810 Failed to fetch filings for CIK 0001690585
+2026-01-20 19:21:50,810 Querying CIK: 0001816736 at https://data.sec.gov/submissions/CIK0001816736.json
+2026-01-20 19:21:50,867 Response status for 0001816736: 403
+2026-01-20 19:21:50,868 Failed to fetch filings for CIK 0001816736
+2026-01-20 19:21:50,868 Querying CIK: 0001029142 at https://data.sec.gov/submissions/CIK0001029142.json
+2026-01-20 19:21:50,946 Response status for 0001029142: 403
+2026-01-20 19:21:50,946 Failed to fetch filings for CIK 0001029142
+2026-01-20 19:21:50,947 Querying CIK: 0001818794 at https://data.sec.gov/submissions/CIK0001818794.json
+2026-01-20 19:21:51,010 Response status for 0001818794: 403
+2026-01-20 19:21:51,010 Failed to fetch filings for CIK 0001818794
+2026-01-20 19:21:51,010 Querying CIK: 0001710072 at https://data.sec.gov/submissions/CIK0001710072.json
+2026-01-20 19:21:51,064 Response status for 0001710072: 403
+2026-01-20 19:21:51,064 Failed to fetch filings for CIK 0001710072
+2026-01-20 19:21:51,064 Querying CIK: 0000059478 at https://data.sec.gov/submissions/CIK0000059478.json
+2026-01-20 19:21:51,120 Response status for 0000059478: 403
+2026-01-20 19:21:51,120 Failed to fetch filings for CIK 0000059478
+2026-01-20 19:21:51,120 Querying CIK: 0001367644 at https://data.sec.gov/submissions/CIK0001367644.json
+2026-01-20 19:21:51,176 Response status for 0001367644: 403
+2026-01-20 19:21:51,176 Failed to fetch filings for CIK 0001367644
+2026-01-20 19:21:51,177 Querying CIK: 0001177648 at https://data.sec.gov/submissions/CIK0001177648.json
+2026-01-20 19:21:51,233 Response status for 0001177648: 403
+2026-01-20 19:21:51,233 Failed to fetch filings for CIK 0001177648
+2026-01-20 19:21:51,233 Querying CIK: 0001672619 at https://data.sec.gov/submissions/CIK0001672619.json
+2026-01-20 19:21:51,311 Response status for 0001672619: 403
+2026-01-20 19:21:51,312 Failed to fetch filings for CIK 0001672619
+2026-01-20 19:21:51,312 Querying CIK: 0001689375 at https://data.sec.gov/submissions/CIK0001689375.json
+2026-01-20 19:21:51,368 Response status for 0001689375: 403
+2026-01-20 19:21:51,368 Failed to fetch filings for CIK 0001689375
+2026-01-20 19:21:51,368 Querying CIK: 0001761918 at https://data.sec.gov/submissions/CIK0001761918.json
+2026-01-20 19:21:51,443 Response status for 0001761918: 403
+2026-01-20 19:21:51,443 Failed to fetch filings for CIK 0001761918
+2026-01-20 19:21:51,443 Querying CIK: 0001822462 at https://data.sec.gov/submissions/CIK0001822462.json
+2026-01-20 19:21:51,501 Response status for 0001822462: 403
+2026-01-20 19:21:51,501 Failed to fetch filings for CIK 0001822462
+2026-01-20 19:21:51,501 Querying CIK: 0001680581 at https://data.sec.gov/submissions/CIK0001680581.json
+2026-01-20 19:21:51,568 Response status for 0001680581: 403
+2026-01-20 19:21:51,568 Failed to fetch filings for CIK 0001680581
+2026-01-20 19:21:51,568 Querying CIK: 0001421876 at https://data.sec.gov/submissions/CIK0001421876.json
+2026-01-20 19:21:51,633 Response status for 0001421876: 403
+2026-01-20 19:21:51,633 Failed to fetch filings for CIK 0001421876
+2026-01-20 19:21:51,634 Querying CIK: 0001434265 at https://data.sec.gov/submissions/CIK0001434265.json
+2026-01-20 19:21:51,706 Response status for 0001434265: 403
+2026-01-20 19:21:51,706 Failed to fetch filings for CIK 0001434265
+2026-01-20 19:21:51,706 Querying CIK: 0000886744 at https://data.sec.gov/submissions/CIK0000886744.json
+2026-01-20 19:21:51,777 Response status for 0000886744: 403
+2026-01-20 19:21:51,777 Failed to fetch filings for CIK 0000886744
+2026-01-20 19:21:51,777 Querying CIK: 0001855129 at https://data.sec.gov/submissions/CIK0001855129.json
+2026-01-20 19:21:51,832 Response status for 0001855129: 403
+2026-01-20 19:21:51,832 Failed to fetch filings for CIK 0001855129
+2026-01-20 19:21:51,832 Querying CIK: 0001728117 at https://data.sec.gov/submissions/CIK0001728117.json
+2026-01-20 19:21:51,890 Response status for 0001728117: 403
+2026-01-20 19:21:51,890 Failed to fetch filings for CIK 0001728117
+2026-01-20 19:21:51,890 Querying CIK: 0001438569 at https://data.sec.gov/submissions/CIK0001438569.json
+2026-01-20 19:21:51,982 Response status for 0001438569: 403
+2026-01-20 19:21:51,983 Failed to fetch filings for CIK 0001438569
+2026-01-20 19:21:51,983 Querying CIK: 0001676725 at https://data.sec.gov/submissions/CIK0001676725.json
+2026-01-20 19:21:52,046 Response status for 0001676725: 403
+2026-01-20 19:21:52,047 Failed to fetch filings for CIK 0001676725
+2026-01-20 19:21:52,047 Querying CIK: 0001790340 at https://data.sec.gov/submissions/CIK0001790340.json
+2026-01-20 19:21:52,110 Response status for 0001790340: 403
+2026-01-20 19:21:52,111 Failed to fetch filings for CIK 0001790340
+2026-01-20 19:21:52,111 Querying CIK: 0001472012 at https://data.sec.gov/submissions/CIK0001472012.json
+2026-01-20 19:21:52,190 Response status for 0001472012: 403
+2026-01-20 19:21:52,191 Failed to fetch filings for CIK 0001472012
+2026-01-20 19:21:52,191 Querying CIK: 0001506184 at https://data.sec.gov/submissions/CIK0001506184.json
+2026-01-20 19:21:52,252 Response status for 0001506184: 403
+2026-01-20 19:21:52,253 Failed to fetch filings for CIK 0001506184
+2026-01-20 19:21:52,253 Querying CIK: 0001104506 at https://data.sec.gov/submissions/CIK0001104506.json
+2026-01-20 19:21:52,331 Response status for 0001104506: 403
+2026-01-20 19:21:52,331 Failed to fetch filings for CIK 0001104506
+2026-01-20 19:21:52,331 Querying CIK: 0000874015 at https://data.sec.gov/submissions/CIK0000874015.json
+2026-01-20 19:21:52,389 Response status for 0000874015: 403
+2026-01-20 19:21:52,390 Failed to fetch filings for CIK 0000874015
+2026-01-20 19:21:52,390 Querying CIK: 0001446847 at https://data.sec.gov/submissions/CIK0001446847.json
+2026-01-20 19:21:52,457 Response status for 0001446847: 403
+2026-01-20 19:21:52,457 Failed to fetch filings for CIK 0001446847
+2026-01-20 19:21:52,458 Querying CIK: 0001817713 at https://data.sec.gov/submissions/CIK0001817713.json
+2026-01-20 19:21:52,517 Response status for 0001817713: 403
+2026-01-20 19:21:52,518 Failed to fetch filings for CIK 0001817713
+2026-01-20 19:21:52,518 Querying CIK: 0000200406 at https://data.sec.gov/submissions/CIK0000200406.json
+2026-01-20 19:21:52,578 Response status for 0000200406: 403
+2026-01-20 19:21:52,578 Failed to fetch filings for CIK 0000200406
+2026-01-20 19:21:52,578 Querying CIK: 0001954488 at https://data.sec.gov/submissions/CIK0001954488.json
+2026-01-20 19:21:52,633 Response status for 0001954488: 403
+2026-01-20 19:21:52,634 Failed to fetch filings for CIK 0001954488
+2026-01-20 19:21:52,634 Querying CIK: 0001348911 at https://data.sec.gov/submissions/CIK0001348911.json
+2026-01-20 19:21:52,692 Response status for 0001348911: 403
+2026-01-20 19:21:52,692 Failed to fetch filings for CIK 0001348911
+2026-01-20 19:21:52,692 Querying CIK: 0001664710 at https://data.sec.gov/submissions/CIK0001664710.json
+2026-01-20 19:21:52,749 Response status for 0001664710: 403
+2026-01-20 19:21:52,749 Failed to fetch filings for CIK 0001664710
+2026-01-20 19:21:52,750 Querying CIK: 0001422143 at https://data.sec.gov/submissions/CIK0001422143.json
+2026-01-20 19:21:52,805 Response status for 0001422143: 403
+2026-01-20 19:21:52,805 Failed to fetch filings for CIK 0001422143
+2026-01-20 19:21:52,805 Querying CIK: 0001374690 at https://data.sec.gov/submissions/CIK0001374690.json
+2026-01-20 19:21:52,863 Response status for 0001374690: 403
+2026-01-20 19:21:52,863 Failed to fetch filings for CIK 0001374690
+2026-01-20 19:21:52,863 Querying CIK: 0001801198 at https://data.sec.gov/submissions/CIK0001801198.json
+2026-01-20 19:21:52,920 Response status for 0001801198: 403
+2026-01-20 19:21:52,920 Failed to fetch filings for CIK 0001801198
+2026-01-20 19:21:52,920 Querying CIK: 0001806952 at https://data.sec.gov/submissions/CIK0001806952.json
+2026-01-20 19:21:52,987 Response status for 0001806952: 403
+2026-01-20 19:21:52,988 Failed to fetch filings for CIK 0001806952
+2026-01-20 19:21:52,988 Querying CIK: 0001157601 at https://data.sec.gov/submissions/CIK0001157601.json
+2026-01-20 19:21:53,051 Response status for 0001157601: 403
+2026-01-20 19:21:53,051 Failed to fetch filings for CIK 0001157601
+2026-01-20 19:21:53,052 Querying CIK: 0000899460 at https://data.sec.gov/submissions/CIK0000899460.json
+2026-01-20 19:21:53,112 Response status for 0000899460: 403
+2026-01-20 19:21:53,112 Failed to fetch filings for CIK 0000899460
+2026-01-20 19:21:53,112 Querying CIK: 0001823239 at https://data.sec.gov/submissions/CIK0001823239.json
+2026-01-20 19:21:53,184 Response status for 0001823239: 403
+2026-01-20 19:21:53,185 Failed to fetch filings for CIK 0001823239
+2026-01-20 19:21:53,185 Querying CIK: 0001776111 at https://data.sec.gov/submissions/CIK0001776111.json
+2026-01-20 19:21:53,243 Response status for 0001776111: 403
+2026-01-20 19:21:53,243 Failed to fetch filings for CIK 0001776111
+2026-01-20 19:21:53,243 Querying CIK: 0000310158 at https://data.sec.gov/submissions/CIK0000310158.json
+2026-01-20 19:21:53,311 Response status for 0000310158: 403
+2026-01-20 19:21:53,312 Failed to fetch filings for CIK 0000310158
+2026-01-20 19:21:53,312 Querying CIK: 0001933414 at https://data.sec.gov/submissions/CIK0001933414.json
+2026-01-20 19:21:53,378 Response status for 0001933414: 403
+2026-01-20 19:21:53,379 Failed to fetch filings for CIK 0001933414
+2026-01-20 19:21:53,379 Querying CIK: 0001759425 at https://data.sec.gov/submissions/CIK0001759425.json
+2026-01-20 19:21:53,439 Response status for 0001759425: 403
+2026-01-20 19:21:53,439 Failed to fetch filings for CIK 0001759425
+2026-01-20 19:21:53,440 Querying CIK: 0001404644 at https://data.sec.gov/submissions/CIK0001404644.json
+2026-01-20 19:21:53,498 Response status for 0001404644: 403
+2026-01-20 19:21:53,499 Failed to fetch filings for CIK 0001404644
+2026-01-20 19:21:53,499 Querying CIK: 0001936258 at https://data.sec.gov/submissions/CIK0001936258.json
+2026-01-20 19:21:53,559 Response status for 0001936258: 403
+2026-01-20 19:21:53,560 Failed to fetch filings for CIK 0001936258
+2026-01-20 19:21:53,560 Querying CIK: 0001778016 at https://data.sec.gov/submissions/CIK0001778016.json
+2026-01-20 19:21:53,620 Response status for 0001778016: 403
+2026-01-20 19:21:53,621 Failed to fetch filings for CIK 0001778016
+2026-01-20 19:21:53,621 Querying CIK: 0001549595 at https://data.sec.gov/submissions/CIK0001549595.json
+2026-01-20 19:21:53,684 Response status for 0001549595: 403
+2026-01-20 19:21:53,684 Failed to fetch filings for CIK 0001549595
+2026-01-20 19:21:53,684 Querying CIK: 0001861560 at https://data.sec.gov/submissions/CIK0001861560.json
+2026-01-20 19:21:53,750 Response status for 0001861560: 403
+2026-01-20 19:21:53,751 Failed to fetch filings for CIK 0001861560
+2026-01-20 19:21:53,751 Querying CIK: 0001811063 at https://data.sec.gov/submissions/CIK0001811063.json
+2026-01-20 19:21:53,835 Response status for 0001811063: 403
+2026-01-20 19:21:53,836 Failed to fetch filings for CIK 0001811063
+2026-01-20 19:21:53,836 Querying CIK: 0001750284 at https://data.sec.gov/submissions/CIK0001750284.json
+2026-01-20 19:21:53,891 Response status for 0001750284: 403
+2026-01-20 19:21:53,892 Failed to fetch filings for CIK 0001750284
+2026-01-20 19:21:53,892 Querying CIK: 0000944809 at https://data.sec.gov/submissions/CIK0000944809.json
+2026-01-20 19:21:53,951 Response status for 0000944809: 403
+2026-01-20 19:21:53,952 Failed to fetch filings for CIK 0000944809
+2026-01-20 19:21:53,952 Querying CIK: 0001796280 at https://data.sec.gov/submissions/CIK0001796280.json
+2026-01-20 19:21:54,034 Response status for 0001796280: 403
+2026-01-20 19:21:54,034 Failed to fetch filings for CIK 0001796280
+2026-01-20 19:21:54,035 Querying CIK: 0000907654 at https://data.sec.gov/submissions/CIK0000907654.json
+2026-01-20 19:21:54,094 Response status for 0000907654: 403
+2026-01-20 19:21:54,094 Failed to fetch filings for CIK 0000907654
+2026-01-20 19:21:54,094 Querying CIK: 0001583648 at https://data.sec.gov/submissions/CIK0001583648.json
+2026-01-20 19:21:54,152 Response status for 0001583648: 403
+2026-01-20 19:21:54,152 Failed to fetch filings for CIK 0001583648
+2026-01-20 19:21:54,152 Querying CIK: 0001835597 at https://data.sec.gov/submissions/CIK0001835597.json
+2026-01-20 19:21:54,223 Response status for 0001835597: 403
+2026-01-20 19:21:54,224 Failed to fetch filings for CIK 0001835597
+2026-01-20 19:21:54,224 Querying CIK: 0000728387 at https://data.sec.gov/submissions/CIK0000728387.json
+2026-01-20 19:21:54,285 Response status for 0000728387: 403
+2026-01-20 19:21:54,286 Failed to fetch filings for CIK 0000728387
+2026-01-20 19:21:54,286 Querying CIK: 0000078003 at https://data.sec.gov/submissions/CIK0000078003.json
+2026-01-20 19:21:54,372 Response status for 0000078003: 403
+2026-01-20 19:21:54,372 Failed to fetch filings for CIK 0000078003
+2026-01-20 19:21:54,372 Querying CIK: 0001830487 at https://data.sec.gov/submissions/CIK0001830487.json
+2026-01-20 19:21:54,433 Response status for 0001830487: 403
+2026-01-20 19:21:54,434 Failed to fetch filings for CIK 0001830487
+2026-01-20 19:21:54,434 Querying CIK: 0001783183 at https://data.sec.gov/submissions/CIK0001783183.json
+2026-01-20 19:21:54,499 Response status for 0001783183: 403
+2026-01-20 19:21:54,500 Failed to fetch filings for CIK 0001783183
+2026-01-20 19:21:54,500 Querying CIK: 0001689548 at https://data.sec.gov/submissions/CIK0001689548.json
+2026-01-20 19:21:54,560 Response status for 0001689548: 403
+2026-01-20 19:21:54,560 Failed to fetch filings for CIK 0001689548
+2026-01-20 19:21:54,560 Querying CIK: 0001356090 at https://data.sec.gov/submissions/CIK0001356090.json
+2026-01-20 19:21:54,633 Response status for 0001356090: 403
+2026-01-20 19:21:54,633 Failed to fetch filings for CIK 0001356090
+2026-01-20 19:21:54,633 Querying CIK: 0001377121 at https://data.sec.gov/submissions/CIK0001377121.json
+2026-01-20 19:21:54,688 Response status for 0001377121: 403
+2026-01-20 19:21:54,689 Failed to fetch filings for CIK 0001377121
+2026-01-20 19:21:54,689 Querying CIK: 0001559053 at https://data.sec.gov/submissions/CIK0001559053.json
+2026-01-20 19:21:54,747 Response status for 0001559053: 403
+2026-01-20 19:21:54,748 Failed to fetch filings for CIK 0001559053
+2026-01-20 19:21:54,748 Querying CIK: 0001070081 at https://data.sec.gov/submissions/CIK0001070081.json
+2026-01-20 19:21:54,828 Response status for 0001070081: 403
+2026-01-20 19:21:54,828 Failed to fetch filings for CIK 0001070081
+2026-01-20 19:21:54,828 Querying CIK: 0001782223 at https://data.sec.gov/submissions/CIK0001782223.json
+2026-01-20 19:21:54,893 Response status for 0001782223: 403
+2026-01-20 19:21:54,893 Failed to fetch filings for CIK 0001782223
+2026-01-20 19:21:54,893 Querying CIK: 0002012593 at https://data.sec.gov/submissions/CIK0002012593.json
+2026-01-20 19:21:54,951 Response status for 0002012593: 403
+2026-01-20 19:21:54,951 Failed to fetch filings for CIK 0002012593
+2026-01-20 19:21:54,951 Querying CIK: 0001673772 at https://data.sec.gov/submissions/CIK0001673772.json
+2026-01-20 19:21:55,019 Response status for 0001673772: 403
+2026-01-20 19:21:55,019 Failed to fetch filings for CIK 0001673772
+2026-01-20 19:21:55,020 Querying CIK: 0000872589 at https://data.sec.gov/submissions/CIK0000872589.json
+2026-01-20 19:21:55,082 Response status for 0000872589: 403
+2026-01-20 19:21:55,083 Failed to fetch filings for CIK 0000872589
+2026-01-20 19:21:55,083 Querying CIK: 0001509261 at https://data.sec.gov/submissions/CIK0001509261.json
+2026-01-20 19:21:55,142 Response status for 0001509261: 403
+2026-01-20 19:21:55,142 Failed to fetch filings for CIK 0001509261
+2026-01-20 19:21:55,142 Querying CIK: 0001649904 at https://data.sec.gov/submissions/CIK0001649904.json
+2026-01-20 19:21:55,202 Response status for 0001649904: 403
+2026-01-20 19:21:55,203 Failed to fetch filings for CIK 0001649904
+2026-01-20 19:21:55,203 Querying CIK: 0001034842 at https://data.sec.gov/submissions/CIK0001034842.json
+2026-01-20 19:21:55,259 Response status for 0001034842: 403
+2026-01-20 19:21:55,259 Failed to fetch filings for CIK 0001034842
+2026-01-20 19:21:55,259 Querying CIK: 0001281895 at https://data.sec.gov/submissions/CIK0001281895.json
+2026-01-20 19:21:55,316 Response status for 0001281895: 403
+2026-01-20 19:21:55,316 Failed to fetch filings for CIK 0001281895
+2026-01-20 19:21:55,316 Querying CIK: 0001635088 at https://data.sec.gov/submissions/CIK0001635088.json
+2026-01-20 19:21:55,383 Response status for 0001635088: 403
+2026-01-20 19:21:55,384 Failed to fetch filings for CIK 0001635088
+2026-01-20 19:21:55,384 Querying CIK: 0001400118 at https://data.sec.gov/submissions/CIK0001400118.json
+2026-01-20 19:21:55,450 Response status for 0001400118: 403
+2026-01-20 19:21:55,450 Failed to fetch filings for CIK 0001400118
+2026-01-20 19:21:55,450 Querying CIK: 0000873303 at https://data.sec.gov/submissions/CIK0000873303.json
+2026-01-20 19:21:55,509 Response status for 0000873303: 403
+2026-01-20 19:21:55,509 Failed to fetch filings for CIK 0000873303
+2026-01-20 19:21:55,509 Querying CIK: 0001160308 at https://data.sec.gov/submissions/CIK0001160308.json
+2026-01-20 19:21:55,570 Response status for 0001160308: 403
+2026-01-20 19:21:55,570 Failed to fetch filings for CIK 0001160308
+2026-01-20 19:21:55,570 Querying CIK: 0001984086 at https://data.sec.gov/submissions/CIK0001984086.json
+2026-01-20 19:21:55,628 Response status for 0001984086: 403
+2026-01-20 19:21:55,629 Failed to fetch filings for CIK 0001984086
+2026-01-20 19:21:55,629 Querying CIK: 0001479615 at https://data.sec.gov/submissions/CIK0001479615.json
+2026-01-20 19:21:55,688 Response status for 0001479615: 403
+2026-01-20 19:21:55,689 Failed to fetch filings for CIK 0001479615
+2026-01-20 19:21:55,689 Querying CIK: 0002036042 at https://data.sec.gov/submissions/CIK0002036042.json
+2026-01-20 19:21:55,744 Response status for 0002036042: 403
+2026-01-20 19:21:55,744 Failed to fetch filings for CIK 0002036042
+2026-01-20 19:21:55,744 Querying CIK: 0001484565 at https://data.sec.gov/submissions/CIK0001484565.json
+2026-01-20 19:21:55,800 Response status for 0001484565: 403
+2026-01-20 19:21:55,800 Failed to fetch filings for CIK 0001484565
+2026-01-20 19:21:55,800 Querying CIK: 0001636282 at https://data.sec.gov/submissions/CIK0001636282.json
+2026-01-20 19:21:55,867 Response status for 0001636282: 403
+2026-01-20 19:21:55,868 Failed to fetch filings for CIK 0001636282
+2026-01-20 19:21:55,868 Querying CIK: 0001623526 at https://data.sec.gov/submissions/CIK0001623526.json
+2026-01-20 19:21:55,948 Response status for 0001623526: 403
+2026-01-20 19:21:55,949 Failed to fetch filings for CIK 0001623526
+2026-01-20 19:21:55,949 Querying CIK: 0001888886 at https://data.sec.gov/submissions/CIK0001888886.json
+2026-01-20 19:21:56,016 Response status for 0001888886: 403
+2026-01-20 19:21:56,016 Failed to fetch filings for CIK 0001888886
+2026-01-20 19:21:56,016 Querying CIK: 0001599298 at https://data.sec.gov/submissions/CIK0001599298.json
+2026-01-20 19:21:56,092 Response status for 0001599298: 403
+2026-01-20 19:21:56,093 Failed to fetch filings for CIK 0001599298
+2026-01-20 19:21:56,094 Querying CIK: 0001395937 at https://data.sec.gov/submissions/CIK0001395937.json
+2026-01-20 19:21:56,161 Response status for 0001395937: 403
+2026-01-20 19:21:56,162 Failed to fetch filings for CIK 0001395937
+2026-01-20 19:21:56,162 Querying CIK: 0001819133 at https://data.sec.gov/submissions/CIK0001819133.json
+2026-01-20 19:21:56,219 Response status for 0001819133: 403
+2026-01-20 19:21:56,220 Failed to fetch filings for CIK 0001819133
+2026-01-20 19:21:56,220 Querying CIK: 0001831363 at https://data.sec.gov/submissions/CIK0001831363.json
+2026-01-20 19:21:56,280 Response status for 0001831363: 403
+2026-01-20 19:21:56,280 Failed to fetch filings for CIK 0001831363
+2026-01-20 19:21:56,280 Querying CIK: 0001001316 at https://data.sec.gov/submissions/CIK0001001316.json
+2026-01-20 19:21:56,340 Response status for 0001001316: 403
+2026-01-20 19:21:56,340 Failed to fetch filings for CIK 0001001316
+2026-01-20 19:21:56,340 Querying CIK: 0001583107 at https://data.sec.gov/submissions/CIK0001583107.json
+2026-01-20 19:21:56,395 Response status for 0001583107: 403
+2026-01-20 19:21:56,396 Failed to fetch filings for CIK 0001583107
+2026-01-20 19:21:56,396 Querying CIK: 0001438533 at https://data.sec.gov/submissions/CIK0001438533.json
+2026-01-20 19:21:56,458 Response status for 0001438533: 403
+2026-01-20 19:21:56,458 Failed to fetch filings for CIK 0001438533
+2026-01-20 19:21:56,458 Querying CIK: 0001563880 at https://data.sec.gov/submissions/CIK0001563880.json
+2026-01-20 19:21:56,515 Response status for 0001563880: 403
+2026-01-20 19:21:56,516 Failed to fetch filings for CIK 0001563880
+2026-01-20 19:21:56,516 Querying CIK: 0001863127 at https://data.sec.gov/submissions/CIK0001863127.json
+2026-01-20 19:21:56,579 Response status for 0001863127: 403
+2026-01-20 19:21:56,580 Failed to fetch filings for CIK 0001863127
+2026-01-20 19:21:56,580 Querying CIK: 0001515673 at https://data.sec.gov/submissions/CIK0001515673.json
+2026-01-20 19:21:56,681 Response status for 0001515673: 403
+2026-01-20 19:21:56,681 Failed to fetch filings for CIK 0001515673
+2026-01-20 19:21:56,681 Querying CIK: 0001590560 at https://data.sec.gov/submissions/CIK0001590560.json
+2026-01-20 19:21:56,781 Response status for 0001590560: 403
+2026-01-20 19:21:56,784 Failed to fetch filings for CIK 0001590560
+2026-01-20 19:21:56,784 Querying CIK: 0001082554 at https://data.sec.gov/submissions/CIK0001082554.json
+2026-01-20 19:21:56,863 Response status for 0001082554: 403
+2026-01-20 19:21:56,863 Failed to fetch filings for CIK 0001082554
+2026-01-20 19:21:56,863 Querying CIK: 0002022626 at https://data.sec.gov/submissions/CIK0002022626.json
+2026-01-20 19:21:56,932 Response status for 0002022626: 403
+2026-01-20 19:21:56,933 Failed to fetch filings for CIK 0002022626
+2026-01-20 19:21:56,933 Querying CIK: 0001668243 at https://data.sec.gov/submissions/CIK0001668243.json
+2026-01-20 19:21:56,995 Response status for 0001668243: 403
+2026-01-20 19:21:56,996 Failed to fetch filings for CIK 0001668243
+2026-01-20 19:21:56,996 Querying CIK: 0001347178 at https://data.sec.gov/submissions/CIK0001347178.json
+2026-01-20 19:21:57,070 Response status for 0001347178: 403
+2026-01-20 19:21:57,071 Failed to fetch filings for CIK 0001347178
+2026-01-20 19:21:57,071 Querying CIK: 0001851194 at https://data.sec.gov/submissions/CIK0001851194.json
+2026-01-20 19:21:57,137 Response status for 0001851194: 403
+2026-01-20 19:21:57,138 Failed to fetch filings for CIK 0001851194
+2026-01-20 19:21:57,138 Querying CIK: 0001831828 at https://data.sec.gov/submissions/CIK0001831828.json
+2026-01-20 19:21:57,212 Response status for 0001831828: 403
+2026-01-20 19:21:57,212 Failed to fetch filings for CIK 0001831828
+2026-01-20 19:21:57,212 Querying CIK: 0001526119 at https://data.sec.gov/submissions/CIK0001526119.json
+2026-01-20 19:21:57,271 Response status for 0001526119: 403
+2026-01-20 19:21:57,272 Failed to fetch filings for CIK 0001526119
+2026-01-20 19:21:57,272 Querying CIK: 0000875320 at https://data.sec.gov/submissions/CIK0000875320.json
+2026-01-20 19:21:57,332 Response status for 0000875320: 403
+2026-01-20 19:21:57,332 Failed to fetch filings for CIK 0000875320
+2026-01-20 19:21:57,332 Querying CIK: 0001792044 at https://data.sec.gov/submissions/CIK0001792044.json
+2026-01-20 19:21:57,394 Response status for 0001792044: 403
+2026-01-20 19:21:57,394 Failed to fetch filings for CIK 0001792044
+2026-01-20 19:21:57,394 Querying CIK: 0001607678 at https://data.sec.gov/submissions/CIK0001607678.json
+2026-01-20 19:21:57,450 Response status for 0001607678: 403
+2026-01-20 19:21:57,450 Failed to fetch filings for CIK 0001607678
+2026-01-20 19:21:57,450 Querying CIK: 0001590750 at https://data.sec.gov/submissions/CIK0001590750.json
+2026-01-20 19:21:57,504 Response status for 0001590750: 403
+2026-01-20 19:21:57,504 Failed to fetch filings for CIK 0001590750
+2026-01-20 19:21:57,504 Querying CIK: 0001631574 at https://data.sec.gov/submissions/CIK0001631574.json
+2026-01-20 19:21:57,560 Response status for 0001631574: 403
+2026-01-20 19:21:57,560 Failed to fetch filings for CIK 0001631574
+2026-01-20 19:21:57,560 Querying CIK: 0001326732 at https://data.sec.gov/submissions/CIK0001326732.json
+2026-01-20 19:21:57,621 Response status for 0001326732: 403
+2026-01-20 19:21:57,623 Failed to fetch filings for CIK 0001326732
+2026-01-20 19:21:57,623 Querying CIK: 0001582313 at https://data.sec.gov/submissions/CIK0001582313.json
+2026-01-20 19:21:57,683 Response status for 0001582313: 403
+2026-01-20 19:21:57,684 Failed to fetch filings for CIK 0001582313
+2026-01-20 19:21:57,684 Querying CIK: 0001704292 at https://data.sec.gov/submissions/CIK0001704292.json
+2026-01-20 19:21:57,746 Response status for 0001704292: 403
+2026-01-20 19:21:57,747 Failed to fetch filings for CIK 0001704292
+2026-01-20 19:21:57,747 Querying CIK: 0001953926 at https://data.sec.gov/submissions/CIK0001953926.json
+2026-01-20 19:21:57,807 Response status for 0001953926: 403
+2026-01-20 19:21:57,808 Failed to fetch filings for CIK 0001953926
+2026-01-20 19:21:57,808 Querying CIK: 0001434647 at https://data.sec.gov/submissions/CIK0001434647.json
+2026-01-20 19:21:57,867 Response status for 0001434647: 403
+2026-01-20 19:21:57,868 Failed to fetch filings for CIK 0001434647
+2026-01-20 19:21:57,868 Querying CIK: 0001555280 at https://data.sec.gov/submissions/CIK0001555280.json
+2026-01-20 19:21:57,920 Response status for 0001555280: 403
+2026-01-20 19:21:57,920 Failed to fetch filings for CIK 0001555280
+2026-01-20 19:21:57,921 Querying CIK: 0001937653 at https://data.sec.gov/submissions/CIK0001937653.json
+2026-01-20 19:21:58,000 Response status for 0001937653: 403
+2026-01-20 19:21:58,001 Failed to fetch filings for CIK 0001937653
+2026-01-20 19:21:58,001 Querying CIK: 0000744218 at https://data.sec.gov/submissions/CIK0000744218.json
+2026-01-20 19:21:58,065 Response status for 0000744218: 403
+2026-01-20 19:21:58,066 Failed to fetch filings for CIK 0000744218
+2026-01-20 19:21:58,066 Querying CIK: 0001652130 at https://data.sec.gov/submissions/CIK0001652130.json
+2026-01-20 19:21:58,130 Response status for 0001652130: 403
+2026-01-20 19:21:58,131 Failed to fetch filings for CIK 0001652130
+2026-01-20 19:21:58,131 Querying CIK: 0001650648 at https://data.sec.gov/submissions/CIK0001650648.json
+2026-01-20 19:21:58,208 Response status for 0001650648: 403
+2026-01-20 19:21:58,209 Failed to fetch filings for CIK 0001650648
+2026-01-20 19:21:58,209 Querying CIK: 0001478320 at https://data.sec.gov/submissions/CIK0001478320.json
+2026-01-20 19:21:58,270 Response status for 0001478320: 403
+2026-01-20 19:21:58,270 Failed to fetch filings for CIK 0001478320
+2026-01-20 19:21:58,270 Querying CIK: 0001368514 at https://data.sec.gov/submissions/CIK0001368514.json
+2026-01-20 19:21:58,328 Response status for 0001368514: 403
+2026-01-20 19:21:58,328 Failed to fetch filings for CIK 0001368514
+2026-01-20 19:21:58,328 Querying CIK: 0001737287 at https://data.sec.gov/submissions/CIK0001737287.json
+2026-01-20 19:21:58,391 Response status for 0001737287: 403
+2026-01-20 19:21:58,391 Failed to fetch filings for CIK 0001737287
+2026-01-20 19:21:58,391 Querying CIK: 0001898416 at https://data.sec.gov/submissions/CIK0001898416.json
+2026-01-20 19:21:58,447 Response status for 0001898416: 403
+2026-01-20 19:21:58,448 Failed to fetch filings for CIK 0001898416
+2026-01-20 19:21:58,448 Querying CIK: 0000318154 at https://data.sec.gov/submissions/CIK0000318154.json
+2026-01-20 19:21:58,503 Response status for 0000318154: 403
+2026-01-20 19:21:58,504 Failed to fetch filings for CIK 0000318154
+2026-01-20 19:21:58,504 Querying CIK: 0001314052 at https://data.sec.gov/submissions/CIK0001314052.json
+2026-01-20 19:21:58,565 Response status for 0001314052: 403
+2026-01-20 19:21:58,565 Failed to fetch filings for CIK 0001314052
+2026-01-20 19:21:58,565 Querying CIK: 0001974640 at https://data.sec.gov/submissions/CIK0001974640.json
+2026-01-20 19:21:58,618 Response status for 0001974640: 403
+2026-01-20 19:21:58,618 Failed to fetch filings for CIK 0001974640
+2026-01-20 19:21:58,618 Querying CIK: 0001786205 at https://data.sec.gov/submissions/CIK0001786205.json
+2026-01-20 19:21:58,676 Response status for 0001786205: 403
+2026-01-20 19:21:58,676 Failed to fetch filings for CIK 0001786205
+2026-01-20 19:21:58,676 Querying CIK: 0001697862 at https://data.sec.gov/submissions/CIK0001697862.json
+2026-01-20 19:21:58,731 Response status for 0001697862: 403
+2026-01-20 19:21:58,732 Failed to fetch filings for CIK 0001697862
+2026-01-20 19:21:58,732 Querying CIK: 0001501796 at https://data.sec.gov/submissions/CIK0001501796.json
+2026-01-20 19:21:58,786 Response status for 0001501796: 403
+2026-01-20 19:21:58,787 Failed to fetch filings for CIK 0001501796
+2026-01-20 19:21:58,787 Querying CIK: 0001730463 at https://data.sec.gov/submissions/CIK0001730463.json
+2026-01-20 19:21:58,849 Response status for 0001730463: 403
+2026-01-20 19:21:58,850 Failed to fetch filings for CIK 0001730463
+2026-01-20 19:21:58,850 Querying CIK: 0001745999 at https://data.sec.gov/submissions/CIK0001745999.json
+2026-01-20 19:21:58,914 Response status for 0001745999: 403
+2026-01-20 19:21:58,915 Failed to fetch filings for CIK 0001745999
+2026-01-20 19:21:58,915 Querying CIK: 0000882796 at https://data.sec.gov/submissions/CIK0000882796.json
+2026-01-20 19:21:58,975 Response status for 0000882796: 403
+2026-01-20 19:21:58,975 Failed to fetch filings for CIK 0000882796
+2026-01-20 19:21:58,975 Querying CIK: 0000875045 at https://data.sec.gov/submissions/CIK0000875045.json
+2026-01-20 19:21:59,043 Response status for 0000875045: 403
+2026-01-20 19:21:59,044 Failed to fetch filings for CIK 0000875045
+2026-01-20 19:21:59,044 Querying CIK: 0001776985 at https://data.sec.gov/submissions/CIK0001776985.json
+2026-01-20 19:21:59,107 Response status for 0001776985: 403
+2026-01-20 19:21:59,107 Failed to fetch filings for CIK 0001776985
+2026-01-20 19:21:59,107 Querying CIK: 0000842023 at https://data.sec.gov/submissions/CIK0000842023.json
+2026-01-20 19:21:59,170 Response status for 0000842023: 403
+2026-01-20 19:21:59,170 Failed to fetch filings for CIK 0000842023
+2026-01-20 19:21:59,170 Querying CIK: 0001701541 at https://data.sec.gov/submissions/CIK0001701541.json
+2026-01-20 19:21:59,231 Response status for 0001701541: 403
+2026-01-20 19:21:59,232 Failed to fetch filings for CIK 0001701541
+2026-01-20 19:21:59,232 Querying CIK: 0001662579 at https://data.sec.gov/submissions/CIK0001662579.json
+2026-01-20 19:21:59,328 Response status for 0001662579: 403
+2026-01-20 19:21:59,329 Failed to fetch filings for CIK 0001662579
+2026-01-20 19:21:59,329 Querying CIK: 0001759138 at https://data.sec.gov/submissions/CIK0001759138.json
+2026-01-20 19:21:59,390 Response status for 0001759138: 403
+2026-01-20 19:21:59,390 Failed to fetch filings for CIK 0001759138
+2026-01-20 19:21:59,391 Querying CIK: 0001841387 at https://data.sec.gov/submissions/CIK0001841387.json
+2026-01-20 19:21:59,444 Response status for 0001841387: 403
+2026-01-20 19:21:59,444 Failed to fetch filings for CIK 0001841387
+2026-01-20 19:21:59,444 Querying CIK: 0001619856 at https://data.sec.gov/submissions/CIK0001619856.json
+2026-01-20 19:21:59,503 Response status for 0001619856: 403
+2026-01-20 19:21:59,504 Failed to fetch filings for CIK 0001619856
+2026-01-20 19:21:59,504 Querying CIK: 0001627281 at https://data.sec.gov/submissions/CIK0001627281.json
+2026-01-20 19:21:59,582 Response status for 0001627281: 403
+2026-01-20 19:21:59,582 Failed to fetch filings for CIK 0001627281
+2026-01-20 19:21:59,582 Querying CIK: 0001991792 at https://data.sec.gov/submissions/CIK0001991792.json
+2026-01-20 19:21:59,642 Response status for 0001991792: 403
+2026-01-20 19:21:59,643 Failed to fetch filings for CIK 0001991792
+2026-01-20 19:21:59,643 Querying CIK: 0001738021 at https://data.sec.gov/submissions/CIK0001738021.json
+2026-01-20 19:21:59,700 Response status for 0001738021: 403
+2026-01-20 19:21:59,701 Failed to fetch filings for CIK 0001738021
+2026-01-20 19:21:59,701 Querying CIK: 0001674416 at https://data.sec.gov/submissions/CIK0001674416.json
+2026-01-20 19:21:59,755 Response status for 0001674416: 403
+2026-01-20 19:21:59,756 Failed to fetch filings for CIK 0001674416
+2026-01-20 19:21:59,756 Querying CIK: 0001789972 at https://data.sec.gov/submissions/CIK0001789972.json
+2026-01-20 19:21:59,826 Response status for 0001789972: 403
+2026-01-20 19:21:59,827 Failed to fetch filings for CIK 0001789972
+2026-01-20 19:21:59,827 Querying CIK: 0001714899 at https://data.sec.gov/submissions/CIK0001714899.json
+2026-01-20 19:21:59,903 Response status for 0001714899: 403
+2026-01-20 19:21:59,904 Failed to fetch filings for CIK 0001714899
+2026-01-20 19:21:59,904 Querying CIK: 0001650664 at https://data.sec.gov/submissions/CIK0001650664.json
+2026-01-20 19:21:59,971 Response status for 0001650664: 403
+2026-01-20 19:21:59,972 Failed to fetch filings for CIK 0001650664
+2026-01-20 19:21:59,972 Querying CIK: 0000939767 at https://data.sec.gov/submissions/CIK0000939767.json
+2026-01-20 19:22:00,031 Response status for 0000939767: 403
+2026-01-20 19:22:00,032 Failed to fetch filings for CIK 0000939767
+2026-01-20 19:22:00,032 Querying CIK: 0000882095 at https://data.sec.gov/submissions/CIK0000882095.json
+2026-01-20 19:22:00,143 Response status for 0000882095: 403
+2026-01-20 19:22:00,144 Failed to fetch filings for CIK 0000882095
+2026-01-20 19:22:00,144 Querying CIK: 0001830214 at https://data.sec.gov/submissions/CIK0001830214.json
+2026-01-20 19:22:00,206 Response status for 0001830214: 403
+2026-01-20 19:22:00,207 Failed to fetch filings for CIK 0001830214
+2026-01-20 19:22:00,207 Querying CIK: 0001159036 at https://data.sec.gov/submissions/CIK0001159036.json
+2026-01-20 19:22:00,295 Response status for 0001159036: 403
+2026-01-20 19:22:00,296 Failed to fetch filings for CIK 0001159036
+2026-01-20 19:22:00,296 Querying CIK: 0001818382 at https://data.sec.gov/submissions/CIK0001818382.json
+2026-01-20 19:22:00,374 Response status for 0001818382: 403
+2026-01-20 19:22:00,374 Failed to fetch filings for CIK 0001818382
+2026-01-20 19:22:00,374 Querying CIK: 0001326110 at https://data.sec.gov/submissions/CIK0001326110.json
+2026-01-20 19:22:00,429 Response status for 0001326110: 403
+2026-01-20 19:22:00,430 Failed to fetch filings for CIK 0001326110
+2026-01-20 19:22:00,430 Querying CIK: 0001671927 at https://data.sec.gov/submissions/CIK0001671927.json
+2026-01-20 19:22:00,493 Response status for 0001671927: 403
+2026-01-20 19:22:00,493 Failed to fetch filings for CIK 0001671927
+2026-01-20 19:22:00,493 Querying CIK: 0001764013 at https://data.sec.gov/submissions/CIK0001764013.json
+2026-01-20 19:22:00,560 Response status for 0001764013: 403
+2026-01-20 19:22:00,560 Failed to fetch filings for CIK 0001764013
+2026-01-20 19:22:00,561 Querying CIK: 0002007919 at https://data.sec.gov/submissions/CIK0002007919.json
+2026-01-20 19:22:00,617 Response status for 0002007919: 403
+2026-01-20 19:22:00,617 Failed to fetch filings for CIK 0002007919
+2026-01-20 19:22:00,617 Querying CIK: 0001832038 at https://data.sec.gov/submissions/CIK0001832038.json
+2026-01-20 19:22:00,672 Response status for 0001832038: 403
+2026-01-20 19:22:00,673 Failed to fetch filings for CIK 0001832038
+2026-01-20 19:22:00,673 Querying CIK: 0001425205 at https://data.sec.gov/submissions/CIK0001425205.json
+2026-01-20 19:22:00,730 Response status for 0001425205: 403
+2026-01-20 19:22:00,730 Failed to fetch filings for CIK 0001425205
+2026-01-20 19:22:00,730 Querying CIK: 0001468748 at https://data.sec.gov/submissions/CIK0001468748.json
+2026-01-20 19:22:00,786 Response status for 0001468748: 403
+2026-01-20 19:22:00,786 Failed to fetch filings for CIK 0001468748
+2026-01-20 19:22:00,786 Querying CIK: 0001711279 at https://data.sec.gov/submissions/CIK0001711279.json
+2026-01-20 19:22:00,847 Response status for 0001711279: 403
+2026-01-20 19:22:00,848 Failed to fetch filings for CIK 0001711279
+2026-01-20 19:22:00,848 Querying CIK: 0001815442 at https://data.sec.gov/submissions/CIK0001815442.json
+2026-01-20 19:22:00,904 Response status for 0001815442: 403
+2026-01-20 19:22:00,904 Failed to fetch filings for CIK 0001815442
+2026-01-20 19:22:00,904 Querying CIK: 0001994702 at https://data.sec.gov/submissions/CIK0001994702.json
+2026-01-20 19:22:00,962 Response status for 0001994702: 403
+2026-01-20 19:22:00,962 Failed to fetch filings for CIK 0001994702
+2026-01-20 19:22:00,963 Querying CIK: 0001815776 at https://data.sec.gov/submissions/CIK0001815776.json
+2026-01-20 19:22:01,018 Response status for 0001815776: 403
+2026-01-20 19:22:01,018 Failed to fetch filings for CIK 0001815776
+2026-01-20 19:22:01,018 Querying CIK: 0001907108 at https://data.sec.gov/submissions/CIK0001907108.json
+2026-01-20 19:22:01,076 Response status for 0001907108: 403
+2026-01-20 19:22:01,077 Failed to fetch filings for CIK 0001907108
+2026-01-20 19:22:01,077 Querying CIK: 0000876343 at https://data.sec.gov/submissions/CIK0000876343.json
+2026-01-20 19:22:01,142 Response status for 0000876343: 403
+2026-01-20 19:22:01,142 Failed to fetch filings for CIK 0000876343
+2026-01-20 19:22:01,142 Querying CIK: 0001842295 at https://data.sec.gov/submissions/CIK0001842295.json
+2026-01-20 19:22:01,205 Response status for 0001842295: 403
+2026-01-20 19:22:01,206 Failed to fetch filings for CIK 0001842295
+2026-01-20 19:22:01,206 Querying CIK: 0001735438 at https://data.sec.gov/submissions/CIK0001735438.json
+2026-01-20 19:22:01,266 Response status for 0001735438: 403
+2026-01-20 19:22:01,267 Failed to fetch filings for CIK 0001735438
+2026-01-20 19:22:01,267 Querying CIK: 0001345099 at https://data.sec.gov/submissions/CIK0001345099.json
+2026-01-20 19:22:01,325 Response status for 0001345099: 403
+2026-01-20 19:22:01,325 Failed to fetch filings for CIK 0001345099
+2026-01-20 19:22:01,325 Querying CIK: 0001682852 at https://data.sec.gov/submissions/CIK0001682852.json
+2026-01-20 19:22:01,387 Response status for 0001682852: 403
+2026-01-20 19:22:01,387 Failed to fetch filings for CIK 0001682852
+2026-01-20 19:22:01,387 Querying CIK: 0001826457 at https://data.sec.gov/submissions/CIK0001826457.json
+2026-01-20 19:22:01,449 Response status for 0001826457: 403
+2026-01-20 19:22:01,450 Failed to fetch filings for CIK 0001826457
+2026-01-20 19:22:01,450 Querying CIK: 0001885522 at https://data.sec.gov/submissions/CIK0001885522.json
+2026-01-20 19:22:01,511 Response status for 0001885522: 403
+2026-01-20 19:22:01,512 Failed to fetch filings for CIK 0001885522
+2026-01-20 19:22:01,512 Querying CIK: 0000914475 at https://data.sec.gov/submissions/CIK0000914475.json
+2026-01-20 19:22:01,575 Response status for 0000914475: 403
+2026-01-20 19:22:01,575 Failed to fetch filings for CIK 0000914475
+2026-01-20 19:22:01,575 Querying CIK: 0001000694 at https://data.sec.gov/submissions/CIK0001000694.json
+2026-01-20 19:22:01,637 Response status for 0001000694: 403
+2026-01-20 19:22:01,637 Failed to fetch filings for CIK 0001000694
+2026-01-20 19:22:01,637 Querying CIK: 0001894562 at https://data.sec.gov/submissions/CIK0001894562.json
+2026-01-20 19:22:01,695 Response status for 0001894562: 403
+2026-01-20 19:22:01,696 Failed to fetch filings for CIK 0001894562
+2026-01-20 19:22:01,696 Querying CIK: 0001601830 at https://data.sec.gov/submissions/CIK0001601830.json
+2026-01-20 19:22:01,769 Response status for 0001601830: 403
+2026-01-20 19:22:01,770 Failed to fetch filings for CIK 0001601830
+2026-01-20 19:22:01,770 Querying CIK: 0001590877 at https://data.sec.gov/submissions/CIK0001590877.json
+2026-01-20 19:22:01,833 Response status for 0001590877: 403
+2026-01-20 19:22:01,833 Failed to fetch filings for CIK 0001590877
+2026-01-20 19:22:01,833 Querying CIK: 0001812364 at https://data.sec.gov/submissions/CIK0001812364.json
+2026-01-20 19:22:01,905 Response status for 0001812364: 403
+2026-01-20 19:22:01,905 Failed to fetch filings for CIK 0001812364
+2026-01-20 19:22:01,905 Querying CIK: 0000730272 at https://data.sec.gov/submissions/CIK0000730272.json
+2026-01-20 19:22:01,966 Response status for 0000730272: 403
+2026-01-20 19:22:01,967 Failed to fetch filings for CIK 0000730272
+2026-01-20 19:22:01,967 Querying CIK: 0001737953 at https://data.sec.gov/submissions/CIK0001737953.json
+2026-01-20 19:22:02,025 Response status for 0001737953: 403
+2026-01-20 19:22:02,026 Failed to fetch filings for CIK 0001737953
+2026-01-20 19:22:02,026 Querying CIK: 0001628171 at https://data.sec.gov/submissions/CIK0001628171.json
+2026-01-20 19:22:02,084 Response status for 0001628171: 403
+2026-01-20 19:22:02,084 Failed to fetch filings for CIK 0001628171
+2026-01-20 19:22:02,084 Querying CIK: 0001770121 at https://data.sec.gov/submissions/CIK0001770121.json
+2026-01-20 19:22:02,152 Response status for 0001770121: 403
+2026-01-20 19:22:02,152 Failed to fetch filings for CIK 0001770121
+2026-01-20 19:22:02,153 Querying CIK: 0001727196 at https://data.sec.gov/submissions/CIK0001727196.json
+2026-01-20 19:22:02,246 Response status for 0001727196: 403
+2026-01-20 19:22:02,247 Failed to fetch filings for CIK 0001727196
+2026-01-20 19:22:02,247 Querying CIK: 0001707502 at https://data.sec.gov/submissions/CIK0001707502.json
+2026-01-20 19:22:02,329 Response status for 0001707502: 403
+2026-01-20 19:22:02,330 Failed to fetch filings for CIK 0001707502
+2026-01-20 19:22:02,330 Querying CIK: 0001819790 at https://data.sec.gov/submissions/CIK0001819790.json
+2026-01-20 19:22:02,396 Response status for 0001819790: 403
+2026-01-20 19:22:02,396 Failed to fetch filings for CIK 0001819790
+2026-01-20 19:22:02,396 Querying CIK: 0001806310 at https://data.sec.gov/submissions/CIK0001806310.json
+2026-01-20 19:22:02,450 Response status for 0001806310: 403
+2026-01-20 19:22:02,450 Failed to fetch filings for CIK 0001806310
+2026-01-20 19:22:02,450 Querying CIK: 0001681087 at https://data.sec.gov/submissions/CIK0001681087.json
+2026-01-20 19:22:02,517 Response status for 0001681087: 403
+2026-01-20 19:22:02,518 Failed to fetch filings for CIK 0001681087
+2026-01-20 19:22:02,518 Querying CIK: 0001858848 at https://data.sec.gov/submissions/CIK0001858848.json
+2026-01-20 19:22:02,581 Response status for 0001858848: 403
+2026-01-20 19:22:02,581 Failed to fetch filings for CIK 0001858848
+2026-01-20 19:22:02,581 Querying CIK: 0001581280 at https://data.sec.gov/submissions/CIK0001581280.json
+2026-01-20 19:22:02,650 Response status for 0001581280: 403
+2026-01-20 19:22:02,651 Failed to fetch filings for CIK 0001581280
+2026-01-20 19:22:02,651 Querying CIK: 0001649094 at https://data.sec.gov/submissions/CIK0001649094.json
+2026-01-20 19:22:02,711 Response status for 0001649094: 403
+2026-01-20 19:22:02,711 Failed to fetch filings for CIK 0001649094
+2026-01-20 19:22:02,712 Querying CIK: 0000887359 at https://data.sec.gov/submissions/CIK0000887359.json
+2026-01-20 19:22:02,772 Response status for 0000887359: 403
+2026-01-20 19:22:02,772 Failed to fetch filings for CIK 0000887359
+2026-01-20 19:22:02,772 Querying CIK: 0001706431 at https://data.sec.gov/submissions/CIK0001706431.json
+2026-01-20 19:22:02,829 Response status for 0001706431: 403
+2026-01-20 19:22:02,829 Failed to fetch filings for CIK 0001706431
+2026-01-20 19:22:02,830 Querying CIK: 0001640266 at https://data.sec.gov/submissions/CIK0001640266.json
+2026-01-20 19:22:02,886 Response status for 0001640266: 403
+2026-01-20 19:22:02,887 Failed to fetch filings for CIK 0001640266
