@@ -25,10 +25,10 @@ def ingest_edgar_filings():
     for issuer_id, cik in issuers:
         filings_url = EDGAR_API.format(cik=cik)
         logging.info(f"Querying CIK: {cik} at {filings_url}")
-            headers = {
-                "User-Agent": "BioGraph2/1.0 (john.cassidy.scott@gmail.com)"
-            }
-            resp = requests.get(filings_url, headers=headers)
+        headers = {
+            "User-Agent": "BioGraph2/1.0 (john.cassidy.scott@gmail.com)"
+        }
+        resp = requests.get(filings_url, headers=headers)
         logging.info(f"Response status for {cik}: {resp.status_code}")
         if resp.status_code != 200:
             logging.info(f"Failed to fetch filings for CIK {cik}")
@@ -40,7 +40,7 @@ def ingest_edgar_filings():
             accession = filings['accessionNumber'][i]
             form_type = filings['form'][i]
             filed_at = filings['filingDate'][i]
-            period = filings['periodOfReport'][i]
+            period = filings.get('periodOfReport', [None]*N)[i]
             url = filings['primaryDocument'][i]
             meta = json.dumps({k: filings[k][i] for k in filings if isinstance(filings[k], list) and len(filings[k]) > i})
             logging.info(f"Inserting filing: {accession} for issuer {issuer_id}")
