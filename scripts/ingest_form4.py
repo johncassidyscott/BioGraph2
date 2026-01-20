@@ -13,9 +13,10 @@ def ingest_form4():
     cur = conn.cursor()
     cur.execute("SELECT id, issuer_id, accession FROM filing WHERE form_type = '4';")
     filings = cur.fetchall()
+    headers = {"User-Agent": "BioGraph2/1.0 (john.cassidy.scott@gmail.com)"}
     for filing_id, issuer_id, accession in filings:
         url = FORM4_API.format(accession=accession)
-        resp = requests.get(url)
+        resp = requests.get(url, headers=headers)
         if resp.status_code != 200:
             import psycopg2
             import requests
@@ -41,16 +42,21 @@ def ingest_form4():
                     xml_url = url if url.endswith('.xml') else url.replace('.htm', '.xml')
                     headers = {"User-Agent": "BioGraph2/1.0 (john.cassidy.scott@gmail.com)"}
                     resp = requests.get(xml_url, headers=headers)
+                    import logging
+                    logging.basicConfig(filename='edgar_ingest.log', level=logging.INFO, format='%(asctime)s %(message)s')
+                    logging.info(f"Fetching XML for {accession} from {xml_url}")
                     if resp.status_code != 200:
-                        print(f"Failed to fetch XML for {accession}")
+                        logging.warning(f"Failed to fetch XML for {accession} (status {resp.status_code})")
                         continue
                     try:
                         root = ET.fromstring(resp.content)
                     except Exception as e:
-                        print(f"XML parse error for {accession}: {e}")
+                        logging.error(f"XML parse error for {accession}: {e}")
                         continue
-                    # Parse insider transactions
-                    for txn in root.findall('.//nonDerivativeTransaction'):
+                    txns = root.findall('.//nonDerivativeTransaction')
+                    if not txns:
+                        logging.info(f"No nonDerivativeTransaction found for {accession}")
+                    for txn in txns:
                         name = root.findtext('.//reportingOwner//rptOwnerName')
                         date = txn.findtext('.//transactionDate//value')
                         txn_type = txn.findtext('.//transactionCoding//transactionCode')
@@ -70,9 +76,9 @@ def ingest_form4():
                                 int(shares) if shares else None,
                                 float(price) if price else None
                             ))
-                            print(f"Inserted transaction for {name} on {date}")
+                            logging.info(f"Inserted transaction for {name} on {date}")
                         except Exception as e:
-                            print(f"DB insert error for {accession}: {e}")
+                            logging.error(f"DB insert error for {accession}: {e}")
                 conn.commit()
                 cur.close()
                 conn.close()
