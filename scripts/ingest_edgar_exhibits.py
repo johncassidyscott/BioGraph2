@@ -21,7 +21,11 @@ def ingest_edgar_exhibits():
     filings = cur.fetchall()
     print(f"Found {len(filings)} filings to process.")
     logging.info(f"Found {len(filings)} filings to process.")
+    if not filings:
+        print("No filings found in the database. Exiting.")
+        return
     for filing_id, accession, issuer_id in filings:
+        print(f"Processing filing_id={filing_id}, accession={accession}, issuer_id={issuer_id}")
         acc_no = accession.replace('-', '')
         cik = issuer_id.replace('ISS_', '')
         index_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc_no}/index.json"
