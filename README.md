@@ -1,4 +1,24 @@
+
 # BioGraph2
+--------------------------------------------------
+Ingestion Data Folder
+--------------------------------------------------
+
+CSV files for ingestion should be placed in the `ingestion_data/` folder at the root of the repository. This folder is intended for staging data files (such as Universe CSV, filings metadata, and program registries) before they are loaded into the database.
+
+**Instructions:**
+1. Place your CSV files in the `ingestion_data/` directory.
+2. Use the provided scripts or database tools to ingest these files into the appropriate tables in NeonDB.
+3. After ingestion, verify that the data has been loaded correctly.
+
+**Example:**
+```
+ingestion_data/
+  universe.csv
+  filings_metadata.csv
+  program_registry.csv
+```
+
 
 BIOGRAPH — CLEAN-SLATE REPOSITORY README
 ================================
