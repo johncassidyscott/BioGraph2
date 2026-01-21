@@ -5,7 +5,7 @@ from biograph.core.evidence import create_evidence
 import csv
 import sys
 import os
-from datetime import datetime
+import datetime
 
 DB_CONN = "postgresql://neondb_owner:npg_meyxk4t0dwXI@ep-spring-art-aheyxuga-pooler.c-3.us-east-1.aws.neon.tech/BioGraph?sslmode=require&channel_binding=require"
 CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else "ingestion_data/program_registry.csv"
@@ -17,7 +17,8 @@ def slugify(text):
 
 def get_issuer_id_map(cur):
     cur.execute("SELECT issuer_id, primary_cik FROM issuer")
-    return {row[1].lstrip('CIK_').lstrip('0'): row[0] for row in cur.fetchall()}
+    # Map CIK as zero-padded 10-digit string, matching CSV format
+    return {row[1]: row[0] for row in cur.fetchall()}
 
 def upsert_program(cur, issuer_id, name, slug, chembl_id):
     cur.execute("""
@@ -46,7 +47,9 @@ def main():
     with open(CSV_PATH, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for i, row in enumerate(reader):
-            cik = row['issuer_cik'].lstrip('CIK_').lstrip('0')
+            # Pad CIK to 10 digits and add CIK_ prefix to match issuer.primary_cik
+            raw_cik = row['issuer_cik'].strip().lstrip('CIK_').lstrip('0')
+            cik = f"CIK_{int(raw_cik):010d}"
             name = row['program_name'].strip()
             chembl_id = row.get('chembl_id', '').strip() or None
             notes = row.get('notes', '').strip() or None
@@ -62,7 +65,7 @@ def main():
             evidence_id = create_evidence(
                 CURATION_SOURCE,
                 f"{csv_version}:{i+1}",
-                datetime.utcnow().isoformat(),
+                datetime.datetime.now(datetime.UTC).isoformat(),
                 LICENSE
             )
             create_assertion_with_evidence(
@@ -72,7 +75,7 @@ def main():
                 'program',
                 program_id,
                 1.0,
-                datetime.utcnow().isoformat(),
+                datetime.datetime.now(datetime.UTC).isoformat(),
                 [evidence_id]
             )
     conn.commit()
