@@ -7,7 +7,10 @@ from biograph.core.normalize import normalize_company_name
 OB_URL = "https://www.accessdata.fda.gov/scripts/cder/ob/docs/obzip/Products.zip"
 OB_PRODUCTS_FILENAME = "Products.txt"
 
-DB_CONN_STR = os.environ.get("BIOGRAPH_DB_URL", "dbname=biograph user=biograph password=biograph host=localhost")
+DB_CONN_STR = os.environ.get(
+    "BIOGRAPH_DB_URL",
+    "postgresql://neondb_owner:npg_meyxk4t0dwXI@ep-spring-art-aheyxuga-pooler.c-3.us-east-1.aws.neon.tech/BioGraph?sslmode=require&channel_binding=require"
+)
 
 import psycopg2
 
@@ -33,7 +36,14 @@ def ingest_orange_book_products(db_conn, products_path):
             applicant_full_name = row.get('Applicant_Full_Name')
             dosage_form_route = row.get('Dosage_Form_Route')
             strength = row.get('Strength')
-            approval_date = row.get('Approval_Date')
+            approval_date_raw = row.get('Approval_Date')
+            # Robust date parsing: set to None if not a valid YYYY-MM-DD
+            approval_date = None
+            if approval_date_raw:
+                try:
+                    approval_date = datetime.strptime(approval_date_raw, "%Y-%m-%d").date()
+                except Exception:
+                    approval_date = None
             marketing_type = row.get('Marketing_Status') or row.get('Type')
             source_month = datetime.now().strftime('%Y-%m')
             applicant_norm = normalize_company_name(applicant) if applicant else None
@@ -51,11 +61,15 @@ def ingest_orange_book_products(db_conn, products_path):
         print(f"Inserted {count} Orange Book product rows.")
 
 def main():
-    # Prefer local Products.txt if available
-    local_products = os.path.join("ingestion_data", OB_PRODUCTS_FILENAME)
-    if os.path.exists(local_products):
-        print(f"Using local Orange Book file: {local_products}")
-        products_path = local_products
+    # Prefer local Products.txt or products.txt if available
+    local_products_upper = os.path.join("ingestion_data", "Products.txt")
+    local_products_lower = os.path.join("ingestion_data", "products.txt")
+    if os.path.exists(local_products_upper):
+        print(f"Using local Orange Book file: {local_products_upper}")
+        products_path = local_products_upper
+    elif os.path.exists(local_products_lower):
+        print(f"Using local Orange Book file: {local_products_lower}")
+        products_path = local_products_lower
     else:
         extract_to = "/tmp"
         print(f"Downloading Orange Book Products.zip from FDA website...")

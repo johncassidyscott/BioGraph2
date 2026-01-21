@@ -6,7 +6,10 @@ from biograph.core.normalize import normalize_company_name
 
 PB_URL = os.environ.get("PURPLE_BOOK_URL", "https://purplebooksearch.fda.gov/downloads/monthlyextract.csv")
 
-DB_CONN_STR = os.environ.get("BIOGRAPH_DB_URL", "dbname=biograph user=biograph password=biograph host=localhost")
+DB_CONN_STR = os.environ.get(
+    "BIOGRAPH_DB_URL",
+    "postgresql://neondb_owner:npg_meyxk4t0dwXI@ep-spring-art-aheyxuga-pooler.c-3.us-east-1.aws.neon.tech/BioGraph?sslmode=require&channel_binding=require"
+)
 
 import psycopg2
 
