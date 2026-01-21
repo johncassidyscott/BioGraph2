@@ -261,4 +261,58 @@ Keep the system boring.
 Keep it explainable.
 Keep it commercial.
 
-End of README.
+
+--------------------------------------------------
+POC: Issuer + Marketed Assets (FDA) Quickstart
+--------------------------------------------------
+
+What’s in Scope
+---------------
+- Issuer + Marketed Assets (Orange Book, Purple Book)
+- MeSH reference (disease/therapeutic area)
+- Deterministic, auditable mapping (no ambiguity)
+
+How to Ingest Data
+------------------
+1. Place CSVs in `ingestion_data/`:
+  - company.csv, issuer.csv, universe_membership.csv
+  - compound.csv, therapeutic_area.csv, issuer_compound.csv
+  - MeSH export (as CSV)
+  - Orange Book, Purple Book (raw)
+2. Run the relevant scripts in `scripts/` to load each table.
+3. Verify data in the database.
+
+How to Rebuild Marketed Assets
+-----------------------------
+Run:
+```bash
+PYTHONPATH=. python3 scripts/rebuild_issuer_marketed_assets.py
+```
+This will populate the `issuer_marketed_asset` table and emit review files in `outputs/`.
+
+How to Resolve Unmatched Holders
+-------------------------------
+1. Review `outputs/unmatched_holders.csv` and `outputs/heuristic_candidates.csv` after rebuild.
+2. To promote a match, run:
+  ```bash
+  python3 scripts/promote_holder_match.py "<holder_name_raw>" <issuer_id>
+  ```
+  This will update the mapping tables.
+3. Re-run the rebuild script to update marketed assets.
+
+How to Run Data Quality Checks
+-----------------------------
+Run:
+```bash
+python3 scripts/marketed_asset_qc.py
+```
+This prints coverage, top unmatched holders, top issuers, and flags duplicate mappings.
+
+Deferred (Explicitly Out of Scope)
+----------------------------------
+- Filings/exhibits linking to assets (later)
+- NER/ER (later)
+- TA taxonomy + asset→TA mapping (manual next)
+- ChEMBL/OpenTargets (later)
+
+No new subsystems added without an explicit spec change.
