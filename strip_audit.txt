@@ -1,0 +1,89 @@
+/workspaces/BioGraph2:
+total 614388
+-rw-rw-rw-  1 codespace root           6264 Jan 20 22:40 README.md
+-rw-rw-rw-  1 codespace codespace      2062 Jan 21 15:33 SCOPE.md
+drwxrwxrwx+ 4 codespace codespace      4096 Jan 21 16:46 biograph
+drwxrwxrwx+ 3 codespace codespace      4096 Jan 20 17:45 db
+-rw-rw-rw-  1 codespace codespace 312952703 Jan 21 14:54 desc2026.gz
+-rw-rw-rw-  1 codespace codespace 312952703 Jan 21 14:54 desc2026xml
+drwxrwxrwx+ 2 codespace codespace      4096 Jan 21 16:30 docs
+-rw-rw-rw-  1 codespace codespace   3136725 Jan 20 23:31 edgar_ingest.log
+drwxrwxrwx+ 2 codespace codespace      4096 Jan 21 16:02 ingestion_data
+-rw-r--r--  1 codespace codespace     13067 Jan 20 19:50 ql  -c SELECT COUNT(*) FROM filing;
+-rw-r--r--  1 codespace codespace      1945 Jan 21 02:45 ql  -c SELECT issuer_id, primary_cik FROM issuer ORDER BY issuer_id LIMIT 50;
+-rw-r--r--  1 codespace codespace     13067 Jan 21 02:04 ql  -c \d program_alias
+drwxrwxrwx+ 2 codespace codespace      4096 Jan 21 16:46 scripts
+-rw-rw-rw-  1 codespace codespace         0 Jan 21 16:46 strip_audit.txt
+drwxrwxrwx+ 3 codespace codespace      4096 Jan 20 18:13 tests
+
+/workspaces/BioGraph2/biograph:
+total 8
+-rw-rw-rw-  1 codespace codespace    0 Jan 21 02:37 __init__.py
+drwxrwxrwx+ 3 codespace codespace 4096 Jan 21 16:46 api
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 21 16:32 core
+
+/workspaces/BioGraph2/biograph/api:
+total 8
+-rw-rw-rw-  1 codespace codespace  397 Jan 21 15:46 main.py
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 21 16:46 v1
+
+/workspaces/BioGraph2/biograph/api/v1:
+total 4
+-rw-rw-rw- 1 codespace codespace 2210 Jan 21 15:41 issuers.py
+
+/workspaces/BioGraph2/biograph/core:
+total 8
+-rw-rw-rw- 1 codespace codespace 1359 Jan 21 16:35 match.py
+-rw-rw-rw- 1 codespace codespace 1277 Jan 21 16:35 normalize.py
+
+/workspaces/BioGraph2/db:
+total 4
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 21 16:46 migrations
+
+/workspaces/BioGraph2/db/migrations:
+total 4
+-rw-rw-rw- 1 codespace codespace 3347 Jan 21 16:46 001_init.sql
+
+/workspaces/BioGraph2/docs:
+total 4
+-rw-rw-rw- 1 codespace codespace 2804 Jan 21 16:35 marketed_assets.md
+
+/workspaces/BioGraph2/ingestion_data:
+total 76
+-rw-rw-rw- 1 codespace codespace 12811 Jan 20 17:23 company.csv
+-rw-rw-rw- 1 codespace codespace   154 Jan 21 16:02 compound.csv
+-rw-rw-rw- 1 codespace codespace    89 Jan 21 16:06 compound_therapeutic_area.csv
+-rw-rw-rw- 1 codespace codespace   515 Jan 20 18:01 create_tables.sql
+-rw-rw-rw- 1 codespace codespace  7702 Jan 21 16:09 issuer.csv
+-rw-rw-rw- 1 codespace codespace    40 Jan 21 16:41 issuer_compound.csv
+-rw-rw-rw- 1 codespace codespace   275 Jan 21 01:19 program_registry.csv
+-rw-rw-rw- 1 codespace codespace   120 Jan 21 16:02 therapeutic_area.csv
+-rw-rw-rw- 1 codespace codespace 13687 Jan 20 17:23 universe_membership.csv
+-rw-rw-rw- 1 codespace codespace 11227 Jan 20 17:39 universe_membership_v1_1.csv
+
+/workspaces/BioGraph2/scripts:
+total 24
+-rw-rw-rw- 1 codespace codespace 1251 Jan 21 16:35 add_issuer_alias.py
+-rw-rw-rw- 1 codespace codespace  299 Jan 21 14:49 export_mesh_c_tree.sql
+-rw-rw-rw- 1 codespace codespace 1470 Jan 21 16:41 ingest_issuer.py
+-rw-rw-rw- 1 codespace codespace 1925 Jan 21 16:35 ingest_orange_book.py
+-rw-rw-rw- 1 codespace codespace 1594 Jan 21 16:35 ingest_purple_book.py
+-rw-rw-rw- 1 codespace codespace 2677 Jan 21 16:35 populate_issuer_marketed_asset.py
+
+/workspaces/BioGraph2/tests:
+total 4
+drwxrwxrwx+ 3 codespace codespace 4096 Jan 21 16:46 contract
+
+/workspaces/BioGraph2/tests/contract:
+total 20
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 20 18:28 __pycache__
+-rw-rw-rw-  1 codespace codespace 2417 Jan 21 16:35 test_alias_matching.py
+-rw-rw-rw-  1 codespace codespace  649 Jan 20 18:28 test_api_endpoints.py
+-rw-rw-rw-  1 codespace codespace 1592 Jan 20 18:34 test_idempotency.py
+-rw-rw-rw-  1 codespace codespace 1560 Jan 21 16:41 test_idempotency_ingest.py
+
+/workspaces/BioGraph2/tests/contract/__pycache__:
+total 16
+-rw-rw-rw- 1 codespace codespace 5781 Jan 20 18:28 test_api_endpoints.cpython-312-pytest-9.0.1.pyc
+-rw-rw-rw- 1 codespace codespace 3675 Jan 20 18:14 test_evidence_assertion.cpython-312-pytest-9.0.1.pyc
+-rw-rw-rw- 1 codespace codespace 2853 Jan 20 18:15 test_verification.cpython-312-pytest-9.0.1.pyc
